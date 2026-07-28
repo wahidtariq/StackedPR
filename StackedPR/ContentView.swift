@@ -11,6 +11,9 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             Color.red.opacity(0.3).ignoresSafeArea()
+            Button("Hello") {
+                print("Button tapped")
+            }
         }
     }
 }
